@@ -1,0 +1,11 @@
+GET http://localhost:8080/
+
+### running a post request
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+    "operandOne": 4,
+    "operandTwo": 98,
+    "operator": "+"
+}
